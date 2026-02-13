@@ -1,0 +1,1795 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="robots" content="index, follow"/>
+
+    <title>PICTET | AG 加密货币交易所</title>
+    <meta name="description" content="AG交易所持有由英国政府颁发的官方运营许可证，其数字资产服务受到全球金融监管机构的认可和监管。"/>
+    <meta name="keywords" content="crypto, AG Exchange, PICTET-Crypto, wallet, defi, dex, 百達集團, 瑞士銀行, 私人銀行"/>
+
+    <link rel="canonical" href="index.html"/>
+
+    <meta property="og:locale" content="en"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:title" content="PICTET-Crypto | AG 加密货币交易所"/>
+    <meta property="og:description" content="AG交易所持有由英国政府颁发的官方运营许可证，PICTET与AG交易所建立5年战略合作伙伴关系"/>
+    <meta property="og:url" content="https://PICTET-Crypto.fi/blog"/>
+    <meta property="og:site_name" content="PICTET | The Future of Crypto Investment"/>
+
+            <meta property="og:image" content="/assets/images/thumbs/PICTET-Crypto-og-image-2-1746017975-og_image.jpg"/>
+                    <meta property="og:image:width" content="1200"/>
+                            <meta property="og:image:height" content="630"/>
+                            <meta property="og:image:type" content="image/jpeg"/>
+            
+    <meta name="theme-color" content="#1a1919"/>
+
+            <!-- FAVICON -->
+<link rel="icon" type="image/svg+xml" href="../favicon.svg">
+<link rel="icon" type="image/png" href="../assets/images/brand-dark-sign-1720029087.svg">
+<link rel="shortcut icon" href="../favicon.ico">
+<meta name="theme-color" content="#1a1919">
+
+<script src="https://cdn.jsdelivr.net/gh/hiunicornstudio/unicornstudio.js@v1.4.4/dist/unicornStudio.umd.js"></script>
+    
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NTJR294');</script>
+<!-- End Google Tag Manager -->
+    
+
+            <link href="../assets/css/app﹖id=209ff795f0d361cdc5cf.css" rel="stylesheet">
+    
+    <link href="../assets/css/app﹖id=69e455b3edec4c4297c0.css" rel="stylesheet">
+    
+    <!-- 防止翻译闪烁：在页面加载前隐藏内容 -->
+    <!-- 防止翻译闪烁：在页面加载前隐藏内容 -->
+    <style>
+        /* 防止翻译闪烁：页面初始隐藏 */
+        body {
+            visibility: hidden !important;
+            opacity: 0 !important;
+        }
+        
+        /* 确保页面完全加载后才显示 */
+        body.page-ready {
+            visibility: visible !important;
+            opacity: 1 !important;
+            transition: opacity 0.3s ease-in !important;
+        }
+    </style>
+    <script>
+        (function() {
+            // 获取初始语言
+            function getInitialLang() {
+                const urlParams = new URLSearchParams(window.location.search);
+                const langParam = urlParams.get('lang');
+                if (langParam && ['en', 'fr', 'ar', 'de', 'it', 'es'].includes(langParam)) {
+                    return langParam;
+                }
+                const stored = window.localStorage && window.localStorage.getItem('pictet-lang');
+                if (stored && ['en', 'fr', 'ar', 'de', 'it', 'es'].includes(stored)) {
+                    return stored;
+                }
+                // 如果检测到中文，清除并重定向到英语
+                if (stored === 'zh' || langParam === 'zh') {
+                    window.localStorage && window.localStorage.setItem('pictet-lang', 'en');
+                    if (langParam === 'zh') {
+                        const url = new URL(window.location.href);
+                        url.searchParams.set('lang', 'en');
+                        window.location.replace(url.toString());
+                        return 'en';
+                    }
+                }
+                return 'en'; // 默认英语
+            }
+            
+            const lang = getInitialLang();
+            // 无论什么语言，都先隐藏页面内容，等翻译完成后再显示
+            document.addEventListener('DOMContentLoaded', function() {
+                if (document.body) {
+                    document.body.style.visibility = 'hidden';
+                    document.body.style.opacity = '0';
+                    document.body.style.transition = 'opacity 0.3s ease-in';
+                }
+            });
+        })();
+    </script>
+    
+    <!-- AG交易所页面样式 -->
+    <style>
+        /* AG交易所页面基础样式 */
+        .cm-section-ag-exchange {
+            padding: 6rem 4% 2rem 4%;
+            background-color: #ffffff;
+        }
+        
+        .cm-section-ag--heading {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+        
+        .cm-section-ag--content {
+            max-width: 1400px;
+            margin: 0 auto;
+            width: 100%;
+        }
+        
+        /* AG交易所介绍 */
+        .cm-ag-intro-section {
+            margin-bottom: 4rem;
+        }
+        
+        .ag-intro-with-logo {
+            display: grid;
+            grid-template-columns: 140px 1fr;
+            gap: 3rem;
+            align-items: flex-start;
+            max-width: 1400px;
+            margin: 0 auto;
+            width: 100%;
+        }
+        
+        .ag-logo-container {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            padding-top: 1rem;
+        }
+        
+        .ag-logo {
+            width: 120px;
+            height: 120px;
+            object-fit: contain;
+            border-radius: 12px;
+            box-shadow: 0 4px 16px rgba(26, 25, 25, 0.1);
+            border: 1px solid rgba(26, 25, 25, 0.1);
+            background: #ffffff;
+        }
+        
+        .ag-intro-text-container {
+            flex: 1;
+            min-width: 0;
+        }
+        
+        .cm-ag-intro-text {
+            font-size: 1.2rem;
+            color: #333333;
+            line-height: 1.8;
+            text-align: left;
+            margin: 0;
+            padding: 2.5rem;
+            background: linear-gradient(135deg, rgba(26, 25, 25, 0.02), rgba(26, 25, 25, 0.05));
+            border-radius: 16px;
+            border: 1px solid rgba(26, 25, 25, 0.1);
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            hyphens: auto;
+        }
+        
+        /* 章节标题 */
+        .cm-section-title {
+            font-size: 1.8rem;
+            color: #1a1919;
+            font-weight: 700;
+            margin-bottom: 2rem;
+            text-align: center;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+        }
+        
+        .cm-section-title i {
+            font-size: 1.5rem;
+            color: #1a1919;
+        }
+        
+        .cm-section-title::after {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 3px;
+            background: #1a1919;
+            margin: 0.5rem auto 0;
+            border-radius: 2px;
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        
+        /* 验证部分 */
+        .cm-verification-section {
+            margin-bottom: 4rem;
+        }
+        
+        .cm-verification-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            align-items: center;
+        }
+        
+        .cm-verification-steps {
+            display: grid;
+            gap: 2rem;
+        }
+        
+        .verification-step {
+            display: flex;
+            align-items: flex-start;
+            gap: 1.5rem;
+            padding: 1.5rem;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 12px;
+            border-left: 4px solid #1a1919;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 8px rgba(26, 25, 25, 0.08);
+        }
+        
+        .verification-step:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(26, 25, 25, 0.15);
+        }
+        
+        .step-number {
+            flex-shrink: 0;
+            width: 40px;
+            height: 40px;
+            background: #1a1919;
+            color: #ffffff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 1.2rem;
+        }
+        
+        .step-content h4 {
+            font-size: 1.1rem;
+            color: #1a1919;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+        
+        .verification-link {
+            color: #1a1919;
+            text-decoration: none;
+            font-weight: 500;
+            word-break: break-all;
+            padding: 0.5rem;
+            background: rgba(26, 25, 25, 0.05);
+            border-radius: 6px;
+            display: block;
+            margin: 0.5rem 0;
+        }
+        
+        .verification-link:hover {
+            background: rgba(26, 25, 25, 0.1);
+        }
+        
+        .company-info {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin: 0.5rem 0;
+            flex-wrap: wrap;
+        }
+        
+        .company-number {
+            background: #1a1919;
+            color: #ffffff;
+            padding: 0.3rem 0.8rem;
+            border-radius: 6px;
+            font-weight: 700;
+            font-family: monospace;
+        }
+        
+        .company-name {
+            color: #1a1919;
+            font-weight: 600;
+        }
+        
+        .verification-note {
+            color: #666666;
+            font-size: 0.9rem;
+            font-style: italic;
+            margin-top: 0.5rem;
+        }
+        
+        .cm-verification-image {
+            text-align: center;
+        }
+        
+        .verification-img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 8px 32px rgba(26, 25, 25, 0.1);
+            border: 1px solid rgba(26, 25, 25, 0.1);
+        }
+        
+        /* 合作伙伴关系部分 */
+        .cm-partnership-section {
+            margin-bottom: 4rem;
+        }
+        
+        .cm-partnership-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            align-items: center;
+        }
+        
+        .partnership-text {
+            display: grid;
+            gap: 1.5rem;
+        }
+        
+        .partnership-description,
+        .partnership-vision {
+            font-size: 1.1rem;
+            color: #333333;
+            line-height: 1.8;
+            padding: 1.5rem;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 12px;
+            border-left: 4px solid #1a1919;
+            box-shadow: 0 2px 8px rgba(26, 25, 25, 0.08);
+        }
+        
+        .partnership-vision {
+            border-left-color: #1a1919;
+            background: linear-gradient(135deg, rgba(26, 25, 25, 0.02), rgba(26, 25, 25, 0.05));
+        }
+        
+        .cm-partnership-image {
+            text-align: center;
+        }
+        
+        .partnership-img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 8px 32px rgba(26, 25, 25, 0.1);
+            border: 1px solid rgba(26, 25, 25, 0.1);
+        }
+        
+        /* CTA按钮区域 */
+        .cm-ag-cta {
+            text-align: center;
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(26, 25, 25, 0.1);
+        }
+        
+        .cta-highlight {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: linear-gradient(135deg, rgba(26, 25, 25, 0.02), rgba(26, 25, 25, 0.05));
+            border-radius: 12px;
+            border: 1px solid rgba(26, 25, 25, 0.1);
+        }
+        
+        .cta-icon {
+            font-size: 2rem;
+            flex-shrink: 0;
+            color: #1a1919;
+        }
+        
+        .cta-text {
+            text-align: left;
+        }
+        
+        .cta-title {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: #1a1919;
+            margin-bottom: 0.5rem;
+        }
+        
+        .cta-subtitle {
+            color: #555555;
+            line-height: 1.5;
+        }
+        
+        /* 响应式设计 */
+        @media screen and (max-width: 768px) {
+            .cm-section-ag-exchange {
+                padding: 5rem 3% 1.5rem 3%;
+            }
+            
+            .ag-intro-with-logo {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+                text-align: center;
+            }
+            
+            .ag-logo-container {
+                align-items: center;
+                padding-top: 0;
+            }
+            
+            .ag-logo {
+                width: 100px;
+                height: 100px;
+            }
+            
+            .cm-verification-content,
+            .cm-partnership-content {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+            
+            .cm-ag-intro-text {
+                font-size: 1.1rem;
+                padding: 2rem;
+                text-align: justify;
+                line-height: 1.7;
+            }
+            
+            .cm-section-title {
+                font-size: 1.5rem;
+            }
+            
+            .verification-step {
+                padding: 1rem;
+            }
+            
+            .step-number {
+                width: 32px;
+                height: 32px;
+                font-size: 1rem;
+            }
+            
+            .company-info {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0.5rem;
+            }
+            
+            .partnership-description,
+            .partnership-vision {
+                font-size: 1rem;
+                padding: 1rem;
+            }
+            
+            .cta-highlight {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .cta-text {
+                text-align: center;
+            }
+        }
+        
+        @media screen and (min-width: 1200px) {
+            .cm-section-ag-exchange {
+                padding: 8rem 5% 3rem 5%;
+            }
+            
+            .ag-intro-with-logo {
+                grid-template-columns: 160px 1fr;
+                gap: 4rem;
+            }
+            
+            .ag-logo {
+                width: 140px;
+                height: 140px;
+            }
+            
+            .cm-ag-intro-text {
+                font-size: 1.3rem;
+                padding: 3rem;
+            }
+            
+            .cm-section-title {
+                font-size: 2rem;
+            }
+        }
+        
+        @media screen and (min-width: 1600px) {
+            .cm-section-ag-exchange {
+                padding: 10rem 8% 4rem 8%;
+            }
+            
+            .ag-intro-with-logo {
+                max-width: 1600px;
+            }
+            
+            .cm-section-ag--content {
+                max-width: 1600px;
+            }
+        }
+        
+        /* 图标通用样式 */
+        .cta-icon i,
+        .cm-section-title i {
+            color: #1a1919;
+        }
+    </style>
+    
+    <!-- Christoph Courth 样式 -->
+    <style>
+        .christoph-courth-title {
+            font-size: 1.8rem !important;
+            margin-bottom: 1rem !important;
+            font-weight: bold !important;
+        }
+        
+        .christoph-courth-subtitle {
+            font-size: 1rem !important;
+            font-weight: 400 !important;
+            color: #666666 !important;
+            margin-bottom: 1.5rem !important;
+            line-height: 1.5 !important;
+        }
+        
+        @media screen and (min-width: 768px) {
+            .christoph-courth-title {
+                font-size: 2.2rem !important;
+            }
+            
+            .christoph-courth-subtitle {
+                font-size: 1.1rem !important;
+            }
+        }
+        
+        @media screen and (min-width: 1200px) {
+            .christoph-courth-title {
+                font-size: 2.5rem !important;
+            }
+            
+            .christoph-courth-subtitle {
+                font-size: 1.2rem !important;
+            }
+        }
+    </style>
+</head>
+<body class="cm-design-template cm-design-template-body-class sub-page disable-bg">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NTJR294"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<script src="https://app.enzuzo.com/scripts/cookiebar/5a36b8ca-3791-11ef-81f4-ab86ce7276fc"></script>
+
+<div class="cm-design-template--component | js-scroll-magic">
+            <aside class="cm-header-announcement" data-menu-sync-id="announcement_bar">
+                    <a href="../pages/roadmap.html" target="_self" title="PICTET 全球加密推广活动正式开启!" class="cm-header-announcement--content | cm-no-button-style">
+                <div class="content-wrap | js-cm-announcement">
+        <div class="hld">
+            <div class="content">
+                
+                <p><strong>PICTET 全球加密推广活动</strong>正式开启!</p>
+            </div>
+        </div>
+    </div>
+
+            <i class="icon-arrow-right"></i>
+                </a>
+            </aside>
+    
+    <header class="cm-header | js-page-header" data-layout="light">
+    <a href="../index.html" title="PICTET | The Future of Crypto Investment" class="cm-header--logo | cm-no-button-style">
+                    <img src="../assets/images/brand-light-logo-1720029087.svg" class="cm-header--logo__logo" data-layout="light" alt="">
+                            <img src="../assets/images/brand-dark-logo-1720029087.svg" class="cm-header--logo__logo" data-layout="dark" alt="">
+            </a>
+
+    <button class="cm-header--button | js-page-header-mobile-nav-trigger"><span>&nbsp;</span></button>
+
+    <div class="cm-header--navigation">
+                    <nav>
+                <ul>
+                                            <li>
+        <a href="../index.html#features" class="cm-no-button-style" target="_self" title="关于我们">
+            <span>关于我们</span>
+        </a>
+    </li>
+                                            <li>
+        <a href="../index.html#products" class="cm-no-button-style" target="_self" title="投资导师">
+            <span>投资导师</span>
+        </a>
+    </li>
+                                            <li>
+        <a href="../index.html#privacy" class="cm-no-button-style" target="_self" title="投资机制">
+            <span>投资机制</span>
+        </a>
+    </li>
+                                            <li>
+        <a href="../pages/roadmap.html" class="cm-no-button-style" target="_self" title="全球推广">
+            <span>全球推广</span>
+        </a>
+    </li>
+                                            <li>
+        <a href="index.html" class="cm-no-button-style" target="_self" title="AG交易所">
+            <span>AG交易所</span>
+        </a>
+    </li>
+
+                                    </ul>
+            </nav>
+        
+        <aside class="cm-header--navigation__buttons">
+                            <a href="https://www.ag1in.com/wap/#/home" target="_blank"  class="cm-site-button | cm-site-button--medium | js-page-header-site-button">
+            <span class="cm-env-icon-button">
+            <span class="cm-env-icon-button--ios"></span>
+            <span class="cm-env-icon-button--android"></span>
+            <span class="cm-env-icon-button--web"></span>
+        </span>
+    
+<span>立即交易</span>
+
+
+        </a>
+                
+                    </aside>
+    </div>
+
+    <div class="cm-header--stroke"></div>
+</header>
+
+<div class="cm-header--overlay | js-page-header-overlay"></div>
+
+    <div class="cm-wrapper | js-scroll-magic-container">
+                    
+                            
+                <section class="cm-section-ag-exchange" data-nav-layout="light" data-scroll-id="ag-exchange">
+    <div class="cm-section-ag--heading">
+        <h2 class="cm-headline-1 cm-headline-display-md-1">AG <span class="js-scroll-magic-letter-animation">加密货币交易所</span></h2>
+    </div>
+
+    <div class="cm-section-ag--content cm-gradient-box cm-gradient-box--light">
+        <div class="cm-gradient-box--body">
+            
+            <!-- AG交易所介绍 -->
+            <div class="cm-ag-intro-section">
+                <div class="cm-ag-intro-content">
+                    <div class="ag-intro-with-logo">
+                        <div class="ag-logo-container">
+                            <img src="../assets/images/09-27 AG LOGO (3).png" alt="AG交易所LOGO" class="ag-logo">
+                        </div>
+                        <div class="ag-intro-text-container">
+                            <p class="cm-ag-intro-text">
+                                AG交易所持有由英国政府颁发的官方运营许可证，其数字资产服务受到全球金融监管机构的认可和监管。这些合法授权的许可证彰显了平台对全面合规、透明性和运营诚信的承诺。通过遵守严格的监管标准，AG交易所为全球用户提供安全可靠的交易环境，进一步增强了投资者和合作伙伴之间的信任与信心。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 官方验证方式 -->
+            <div class="cm-verification-section">
+                <h3 class="cm-section-title">
+                    <i class="icon-checkmark"></i> 官方验证方式
+                </h3>
+                
+                <div class="cm-verification-content">
+                    <div class="cm-verification-steps">
+                        <div class="verification-step">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h4>访问英国政府公司查询官方网站</h4>
+                                <a href="https://find-and-update.company-information.service.gov.uk" target="_blank" class="verification-link">
+                                    https://find-and-update.company-information.service.gov.uk
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="verification-step">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h4>输入公司编号查询</h4>
+                                <div class="company-info">
+                                    <span class="company-number">16764444</span>
+                                    <span class="company-name">AGPRO EXCHANGE LTD</span>
+                                </div>
+                                <p class="verification-note">然后您可以访问完整的注册和合规信息。</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="cm-verification-image">
+                        <img src="../assets/images/01-19 AG.jpg" alt="AG交易所官方验证" class="verification-img">
+                    </div>
+                </div>
+            </div>
+
+            <!-- 5年战略合作伙伴关系 -->
+            <div class="cm-partnership-section">
+                <h3 class="cm-section-title">
+                    <i class="icon-cmn-token"></i> 5年战略合作伙伴关系
+                </h3>
+                
+                <div class="cm-partnership-content">
+                    <div class="partnership-text">
+                        <p class="partnership-description">
+                            PICTET致力于整合全球加密货币资源，为其成员提供安全、透明、高效的投资环境。2025年，PICTET与AG交易所建立战略合作伙伴关系，成为其独家全球分销商。
+                        </p>
+                        
+                        <p class="partnership-vision">
+                            这种合作伙伴关系代表着共同的愿景——交易所寻求通过活跃用户扩大市场份额，而投资者专注于实现可持续的利润。PICTET投资集团充当桥梁，提高市场知名度并确保用户持续盈利，创造无限机会！
+                        </p>
+                    </div>
+                    
+                    <div class="cm-partnership-image">
+                        <img src="../assets/images/12-24 AG &PICTET 合作证书.png" alt="PICTET与AG交易所合作证书" class="partnership-img">
+                    </div>
+                </div>
+            </div>
+
+            <!-- CTA按钮 -->
+            <div class="cm-ag-cta">
+                <div class="cta-highlight">
+                    <div class="cta-icon"><i class="icon-checkmark"></i></div>
+                    <div class="cta-text">
+                        <div class="cta-title">立即体验AG交易所</div>
+                        <div class="cta-subtitle">安全合规的全球加密货币交易平台</div>
+                    </div>
+                </div>
+                <a href="https://www.ag1in.com/wap/#/home" target="_blank" class="cm-site-button | cm-site-button cm-site-button-md--large">
+                    <span class="cm-env-icon-button">
+                        <span class="cm-env-icon-button--ios"></span>
+                        <span class="cm-env-icon-button--android"></span>
+                        <span class="cm-env-icon-button--web"></span>
+                    </span>
+                    <span><i class="icon-arrow-right"></i> 立即开始交易</span>
+                </a>
+            </div>
+
+            <div class="cm-gradient-box--body__stroke"></div>
+        </div>
+    </div>
+</section>
+
+                            
+            
+        </div>
+
+    <footer class="cm-footer" data-nav-layout="dark">
+    <div class="cm-footer--top">
+                    <div class="cm-footer--top__logo">
+                <img src="../assets/images/brand-dark-sign-1720029087.svg" alt="">
+            </div>
+        
+                    <div class="cm-footer--top__socials">
+                        <!-- 媒体图标已注释
+                                                        <a href="https://t.me/PICTET-Crypto_fi" target="_blank" class="cm-no-button-style">
+                        <i class="icon-telegram"></i>
+                    </a>
+                                                        <a href="https://x.com/PICTET-Crypto__App" target="_blank" class="cm-no-button-style">
+                        <i class="icon-x"></i>
+                    </a>
+                                                        <a href="https://www.youtube.com/@get_PICTET-Crypto" target="_blank" class="cm-no-button-style">
+                        <i class="icon-youtube"></i>
+                    </a>
+                        -->
+                            </div>
+        
+                    <div class="cm-footer--top__menu">
+                                    <ul>
+                                                    <li>
+        <a href="../index.html" class="cm-no-button-style" target="_self" title="关于PICTET">
+            <span>关于PICTET</span>
+        </a>
+    </li>
+                                                    <li>
+        <a href="https://www.ag1in.com/wap/#/home" class="cm-no-button-style" target="_blank" title="AG 加密货币交易所">
+            <span>AG 加密货币交易所</span>
+        </a>
+    </li>
+                        <!-- 跨链桥和更新日志链接已注释 - 2026年1月19日
+                                                    <li>
+        <a href="https://dex.PICTET-Crypto.fi/bridge" class="cm-no-button-style" target="_blank" title="跨链桥 WASM">
+            <span>跨链桥 <span class="cm-built-pill cm-built-pill--dark cm-built-pill--small"><span>WASM</span></span></span>
+        </a>
+    </li>
+                                                    <li>
+        <a href="https://feedback.PICTET-Crypto.fi/changelog" class="cm-no-button-style" target="_blank" title="更新日志">
+            <span>更新日志</span>
+        </a>
+    </li>
+                        跨链桥和更新日志链接注释结束 -->
+                                            </ul>
+                
+                            </div>
+        
+        <div class="cm-footer--top__text">
+            <p>PICTET：引领加密投资的未来。PICTET集團是瑞士的一家跨國私人銀行和金融服務公司，總部位於日內瓦。<br>PICTET-Crypto项目现已推出。</p>
+                    </div>
+    </div>
+
+    <div class="cm-footer--bottom">
+        <div class="cm-footer--bottom__left">
+            
+            <p>PICTET-Crypto</p>
+            
+        </div>
+
+        <div class="cm-footer--bottom__right">
+            <p class="cm-typo-dec">版权所有 © 2026 PICTET-Crypto</p>
+
+                            <ul>
+                                    </ul>
+                    </div>
+    </div>
+
+            <div class="cm-footer--animation">
+            <img src="../assets/images/cex-dex-animation-dark-1720044913.svg" alt="">
+        </div>
+    </footer>
+
+    <aside class="js-download-app-modal" style="display: none;position: fixed;inset: 0;z-index:99999999999;" data-menu-sync-id="download_app_modal">
+        <aside class="cm-download-app-modal">
+                                            <div class="cm-download-app-modal-app-hld">
+                    <button class="cm-download-app-modal--close | cm-no-button-style | js-download-app-modal-close" data-show="xs">
+                        <i class="icon-close"></i>
+                    </button>
+
+                    <div class="cm-download-app-modal-app">
+                        <div class="cm-download-app-modal-app--headline">
+                            <h3 class="cm-headline-md-2 christoph-courth-title"><span class="js-scroll-magic-letter-animation">Christoph Courth</span></h3>
+                            <p class="christoph-courth-subtitle">加密货币投资与全球慈善服务负责人</p>
+                        </div>
+
+                        <div class="cm-download-app-modal-app--buttons">
+                                                                                            <div class="cm-app-qr-code | cm-show-only--desktop | cm-gradient-box cm-gradient-box--light">
+                                    <div class="cm-gradient-box--body">
+                                        <img src="../assets/images/app-qr-code-1746012941.png" alt="加入等候名单">
+
+                                        <div class="cm-gradient-box--body__stroke"></div>
+                                    </div>
+                                </div>
+                                                    </div>
+
+                                                    <div class="cm-download-app-modal-app--features | cm-gradient-box cm-gradient-box--light">
+                                <div class="cm-gradient-box--body">
+                                    <p>
+                                        适用于
+
+                                                                                    <img src="../assets/images/available-on-1746012967.png" alt="适用于">
+                                        
+                                                                            </p>
+
+                                    <div class="cm-gradient-box--body__stroke"></div>
+                                </div>
+                            </div>
+                        
+                        <div class="cm-download-app-modal-app--bg-mobile" style="background-image: url('../assets/images/apps-modal-mobile-1-1746012983.png');"></div>
+                        <div class="cm-download-app-modal-app--bg-desktop" style="background-image: url('../assets/images/apps-desktop-2-1746013000.jpg');"></div>
+                    </div>
+                </div>
+                                            <div class="cm-download-app-modal-app-hld">
+                    <button class="cm-download-app-modal--close | cm-no-button-style | js-download-app-modal-close" data-show="md">
+                        <i class="icon-close"></i>
+                    </button>
+
+                    <div class="cm-download-app-modal-app">
+                        <div class="cm-download-app-modal-app--headline">
+                            <h3 class="cm-headline-md-2 christoph-courth-title"><span class="js-scroll-magic-letter-animation">个人经历</span></h3>
+                            <p class="christoph-courth-subtitle">加入PICTET（Pictet）之前，Christoph Courth 曾在瑞银集团（UBS）任职五年，期间担任瑞士高级慈善顾问，随后负责并领导美国西海岸的家族与慈善顾问业务。在成为高净值慈善家族的顾问之前，Christoph 曾在非营利领域深耕超过十年，足迹遍布东非、中东、加勒比地区及英国，为联合国儿童基金会（UNICEF）、英国王子信托基金（Prince's Trust）等国际组织提供专业服务。2025 年，他正式进入加密货币领域，将其独到的视野与前瞻性的投资理念融入其中，打造出具有颠覆性的加密投资策略。他成功带领团队与PICTET研究院（Pictet Institute）合作，研发了 Alpha 确定性量化投资框架，显著提升了投资的稳定性，并使其在加密投资领域中脱颖而出。</p>
+                        </div>
+                        
+                        <div class="cm-download-app-modal-app--bg-mobile" style="background-image: url('../assets/images/cta-bottom-web-1746531778.png?v=20260119');"></div>
+                        <div class="cm-download-app-modal-app--bg-desktop" style="background-image: url('../assets/images/cta-bottom-web-1746531778.png?v=20260119');"></div>
+                    </div>
+                </div>
+                    </aside>
+    </aside>
+    <aside class="js-video-modal" style="display: none;position: fixed;inset: 0;z-index:99999999999;">
+    <aside class="cm-video-modal">
+        <div class="cm-video-modal--body">
+            <button class="cm-video-modal--close | cm-no-button-style | js-video-modal-close">
+                <i class="icon-close"></i>
+            </button>
+
+            <div class="cm-video-modal--body__iframe | js-video-modal-container">
+            </div>
+        </div>
+    </aside>
+</aside>
+</div>
+
+<script type="module" src="../assets/js/main%EF%B9%96id%3Df9e128a17cad7c469da7.js"></script>
+
+<!-- Twitter conversion tracking base code -->
+<script>
+!function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
+},s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='https://static.ads-twitter.com/uwt.js',
+a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
+twq('config','oi93l');
+</script>
+<!-- End Twitter conversion tracking base code -->
+
+    <!-- 手机版导航栏修复 -->
+    <style>
+        @media screen and (max-width: 767px) {
+            /* 修复手机版导航栏点击问题 */
+            .cm-header--navigation {
+                z-index: 9999 !important;
+            }
+            
+            .cm-header--navigation nav ul li a {
+                pointer-events: auto !important;
+                display: block !important;
+                position: relative !important;
+                z-index: 10000 !important;
+            }
+            
+            /* 确保锚点跳转正常工作 */
+            html {
+                scroll-behavior: smooth !important;
+            }
+            
+            /* 修复可能的覆盖问题 */
+            .cm-header {
+                z-index: 9998 !important;
+            }
+            
+            .cm-header--overlay {
+                z-index: 9997 !important;
+            }
+        }
+        
+        /* 多语言悬浮切换按钮 - 浅色主题 */
+        .cm-lang-switcher {
+            position: fixed;
+            top: 50%;
+            right: 1.5rem;
+            transform: translateY(-50%);
+            z-index: 9999;
+            font-family: inherit;
+        }
+
+        .cm-lang-switcher--panel {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 12px;
+            padding: 0.5rem;
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+            gap: 0.25rem;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+            border: 1px solid rgba(0, 0, 0, 0.08);
+            min-width: 56px;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .cm-lang-switcher--panel.is-expanded {
+            min-width: 140px;
+        }
+
+        .cm-lang-switcher--main-btn {
+            border: none;
+            outline: none;
+            background: transparent;
+            color: #1a1919;
+            font-size: 1.5rem;
+            padding: 0.5rem;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.2s ease, transform 0.15s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            min-height: 44px;
+            text-decoration: none;
+        }
+
+        .cm-lang-switcher--main-btn:hover {
+            background-color: rgba(0, 0, 0, 0.05);
+            transform: scale(1.05);
+            text-decoration: none !important;
+        }
+
+        .cm-lang-switcher--main-btn:hover span {
+            text-decoration: none !important;
+        }
+
+        .cm-lang-switcher--main-btn:active {
+            transform: scale(0.98);
+        }
+
+        .cm-lang-switcher--list {
+            display: none;
+            flex-direction: column;
+            gap: 0.25rem;
+            margin-top: 0.25rem;
+            padding-top: 0.25rem;
+            border-top: 1px solid rgba(0, 0, 0, 0.08);
+        }
+
+        .cm-lang-switcher--panel.is-expanded .cm-lang-switcher--list {
+            display: flex;
+        }
+
+        .cm-lang-switcher--btn {
+            border: none;
+            outline: none;
+            background: transparent;
+            color: #1a1919;
+            font-size: 0.875rem;
+            padding: 0.5rem 0.75rem;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.2s ease, color 0.2s ease, transform 0.12s ease;
+            white-space: nowrap;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            text-align: left;
+            width: 100%;
+            text-decoration: none;
+        }
+
+        .cm-lang-switcher--btn .flag {
+            font-size: 1.25rem;
+            line-height: 1;
+            text-decoration: none !important;
+        }
+
+        .cm-lang-switcher--btn span {
+            text-decoration: none !important;
+        }
+
+        .cm-lang-switcher--main-btn span {
+            text-decoration: none !important;
+        }
+
+        .cm-lang-switcher--btn:hover {
+            background-color: rgba(0, 0, 0, 0.08);
+            transform: translateX(2px);
+            text-decoration: none !important;
+        }
+
+        .cm-lang-switcher--btn:hover span {
+            text-decoration: none !important;
+        }
+
+        .cm-lang-switcher--btn.is-active {
+            background: linear-gradient(120deg, #ff8a3c, #ffca3a);
+            color: #000000;
+            font-weight: 600;
+            text-decoration: none !important;
+        }
+
+        .cm-lang-switcher--btn.is-active span {
+            text-decoration: none !important;
+        }
+
+        .cm-lang-switcher--btn[data-lang="ar"] {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", sans-serif;
+        }
+
+        @media (max-width: 991px) {
+            .cm-lang-switcher {
+                top: auto;
+                bottom: 1.25rem;
+                right: 50%;
+                transform: translateX(50%);
+            }
+
+            .cm-lang-switcher--panel {
+                flex-direction: row;
+                border-radius: 12px;
+                padding: 0.4rem;
+                min-width: auto;
+            }
+
+            .cm-lang-switcher--panel.is-expanded {
+                min-width: auto;
+            }
+
+            .cm-lang-switcher--main-btn {
+                font-size: 1.25rem;
+                padding: 0.4rem;
+                min-height: 40px;
+            }
+
+            .cm-lang-switcher--list {
+                flex-direction: row;
+                border-top: none;
+                border-left: 1px solid rgba(0, 0, 0, 0.08);
+                margin-top: 0;
+                margin-left: 0.25rem;
+                padding-top: 0;
+                padding-left: 0.25rem;
+            }
+
+            .cm-lang-switcher--btn {
+                font-size: 0.8rem;
+                padding: 0.4rem 0.6rem;
+                min-width: auto;
+            }
+
+            .cm-lang-switcher--btn .flag {
+                font-size: 1rem;
+            }
+        }
+    </style>
+
+    <script>
+    // 修复手机版导航栏锚点跳转问题
+    document.addEventListener('DOMContentLoaded', function() {
+        // 获取所有导航链接
+        const navLinks = document.querySelectorAll('.cm-header--navigation a[href*="#"]');
+        
+        navLinks.forEach(function(link) {
+            link.addEventListener('click', function(e) {
+                const href = this.getAttribute('href');
+                
+                // 如果是跨页面的锚点链接，让浏览器正常处理
+                if (href.includes('../index.html#')) {
+                    // 关闭手机版导航菜单
+                    const mobileNavTrigger = document.querySelector('.js-page-header-mobile-nav-trigger');
+                    const header = document.querySelector('.cm-header');
+                    
+                    if (header && header.classList.contains('cm-header--mobile-nav-open')) {
+                        if (mobileNavTrigger) {
+                            mobileNavTrigger.click();
+                        }
+                    }
+                    
+                    // 让浏览器处理跨页面跳转
+                    return true;
+                }
+                
+                // 处理当前页面内的锚点跳转
+                if (href.startsWith('#')) {
+                    e.preventDefault();
+                    
+                    const targetId = href.substring(1);
+                    const targetElement = document.getElementById(targetId);
+                    
+                    if (targetElement) {
+                        // 关闭手机版导航菜单
+                        const mobileNavTrigger = document.querySelector('.js-page-header-mobile-nav-trigger');
+                        const header = document.querySelector('.cm-header');
+                        
+                        if (header && header.classList.contains('cm-header--mobile-nav-open')) {
+                            if (mobileNavTrigger) {
+                                mobileNavTrigger.click();
+                            }
+                        }
+                        
+                        // 平滑滚动到目标元素
+                        setTimeout(function() {
+                            targetElement.scrollIntoView({
+                                behavior: 'smooth',
+                                block: 'start'
+                            });
+                        }, 300);
+                    }
+                }
+            });
+        });
+    });
+    </script>
+
+<!-- 多语言悬浮切换按钮 -->
+<div class="cm-lang-switcher js-lang-switcher" aria-label="Language switcher">
+    <div class="cm-lang-switcher--panel">
+        <button type="button" class="cm-lang-switcher--main-btn js-lang-main-btn" aria-label="Toggle language menu">
+            <span class="js-lang-flag">🇬🇧</span>
+        </button>
+        <div class="cm-lang-switcher--list">
+            <button type="button" class="cm-lang-switcher--btn" data-lang="en">
+                <span class="flag">🇬🇧</span>
+                <span>English</span>
+            </button>
+            <button type="button" class="cm-lang-switcher--btn" data-lang="fr">
+                <span class="flag">🇫🇷</span>
+                <span>Français</span>
+            </button>
+            <button type="button" class="cm-lang-switcher--btn" data-lang="ar">
+                <span class="flag">🇸🇦</span>
+                <span>العربية</span>
+            </button>
+            <button type="button" class="cm-lang-switcher--btn" data-lang="de">
+                <span class="flag">🇩🇪</span>
+                <span>Deutsch</span>
+            </button>
+            <button type="button" class="cm-lang-switcher--btn" data-lang="it">
+                <span class="flag">🇮🇹</span>
+                <span>Italiano</span>
+            </button>
+            <button type="button" class="cm-lang-switcher--btn" data-lang="es">
+                <span class="flag">🇪🇸</span>
+                <span>Español</span>
+            </button>
+        </div>
+    </div>
+</div>
+
+<script>
+(function() {
+    'use strict';
+    const SUPPORTED_LANGS = ['en', 'fr', 'ar', 'de', 'it', 'es'];
+    
+    const META_TEXT = {
+        title: {
+            zh: 'PICTET | AG 加密货币交易所',
+            en: 'PictetCrypto | AG Cryptocurrency Exchange',
+            fr: 'PictetCrypto | Bourse de cryptomonnaies AG',
+            ar: 'بيكت | منصة تداول العملات المشفرة AG',
+            de: 'PictetCrypto | AG Kryptowährungs-Börse',
+            it: 'PictetCrypto | Borsa di criptovalute AG',
+            es: 'PictetCrypto | Intercambio de criptomonedas AG'
+        },
+        description: {
+            zh: 'AG交易所持有由英国政府颁发的官方运营许可证，其数字资产服务受到全球金融监管机构的认可和监管。',
+            en: 'AG Exchange holds an official operating license issued by the UK government, and its digital asset services are recognized and regulated by global financial regulatory authorities.',
+            fr: "La bourse AG détient une licence d'exploitation officielle délivrée par le gouvernement britannique, et ses services d'actifs numériques sont reconnus et réglementés par les autorités de régulation financière mondiales.",
+            ar: 'تمتلك منصة AG Exchange ترخيصًا رسميًا للعمل صادرًا عن الحكومة البريطانية، وتخضع خدمات الأصول الرقمية الخاصة بها للاعتراف والتنظيم من قبل السلطات التنظيمية المالية العالمية.',
+            de: 'AG Exchange besitzt eine offizielle Betriebslizenz der britischen Regierung, und ihre digitalen Asset-Services werden von globalen Finanzaufsichtsbehörden anerkannt und reguliert.',
+            it: 'AG Exchange possiede una licenza operativa ufficiale rilasciata dal governo britannico, e i suoi servizi di asset digitali sono riconosciuti e regolamentati dalle autorità di regolamentazione finanziaria globali.',
+            es: 'AG Exchange posee una licencia operativa oficial emitida por el gobierno británico, y sus servicios de activos digitales son reconocidos y regulados por las autoridades reguladoras financieras globales.'
+        }
+    };
+    
+    const TEXT_MAP = {
+        'PICTET 全球加密推广活动正式开启!': {
+            en: 'PictetCrypto Global Crypto Promotion Campaign Officially Launched!',
+            fr: 'Campagne de promotion crypto mondiale PictetCrypto officiellement lancée !',
+            ar: 'انطلاق الحملة العالمية لترويج العملات المشفرة من بيكت رسميًا!',
+            de: 'PictetCrypto Globale Krypto-Förderungskampagne offiziell gestartet!',
+            it: 'Campagna di promozione cripto globale PictetCrypto ufficialmente lanciata!',
+            es: '¡Campaña de promoción cripto global PictetCrypto oficialmente lanzada!'
+        },
+        '<strong>PICTET 全球加密推广活动</strong>正式开启!': {
+            en: '<strong>PictetCrypto Global Crypto Promotion Campaign</strong> Officially Launched!',
+            fr: '<strong>Campagne de promotion crypto mondiale PictetCrypto</strong> officiellement lancée !',
+            ar: '<strong>انطلاق الحملة العالمية لترويج العملات المشفرة من بيكت</strong> رسميًا!',
+            de: '<strong>PictetCrypto Globale Krypto-Förderungskampagne</strong> offiziell gestartet!',
+            it: '<strong>Campagna di promozione cripto globale PictetCrypto</strong> ufficialmente lanciata!',
+            es: '<strong>¡Campaña de promoción cripto global PictetCrypto</strong> oficialmente lanzada!'
+        },
+        '关于我们': {
+            en: 'About Us',
+            fr: 'À propos de nous',
+            ar: 'من نحن',
+            de: 'Über uns',
+            it: 'Chi siamo',
+            es: 'Acerca de nosotros'
+        },
+        '投资导师': {
+            en: 'Investment Advisor',
+            fr: 'Conseiller en investissement',
+            ar: 'مستشار الاستثمار',
+            de: 'Anlageberater',
+            it: 'Consulente di investimento',
+            es: 'Asesor de inversión'
+        },
+        '投资机制': {
+            en: 'Investment Mechanism',
+            fr: "Mécanisme d'investissement",
+            ar: 'آلية الاستثمار',
+            de: 'Investitionsmechanismus',
+            it: 'Meccanismo di investimento',
+            es: 'Mecanismo de inversión'
+        },
+        '全球推广': {
+            en: 'Global Promotion',
+            fr: 'Promotion mondiale',
+            ar: 'الترويج العالمي',
+            de: 'Globale Förderung',
+            it: 'Promozione globale',
+            es: 'Promoción global'
+        },
+        'AG交易所': {
+            en: 'AG Exchange',
+            fr: 'Bourse AG',
+            ar: 'منصة AG',
+            de: 'AG-Börse',
+            it: 'Borsa AG',
+            es: 'Intercambio AG'
+        },
+        '立即交易': {
+            en: 'Trade Now',
+            fr: 'Trader maintenant',
+            ar: 'تداول الآن',
+            de: 'Jetzt handeln',
+            it: 'Fai trading ora',
+            es: 'Operar ahora'
+        },
+        '加密货币交易所': {
+            en: 'Cryptocurrency Exchange',
+            fr: 'Bourse de cryptomonnaies',
+            ar: 'منصة تداول العملات المشفرة',
+            de: 'Kryptowährungs-Börse',
+            it: 'Borsa di criptovalute',
+            es: 'Intercambio de criptomonedas'
+        },
+        'AG 加密货币交易所': {
+            en: 'AG Cryptocurrency Exchange',
+            fr: 'Bourse de cryptomonnaies AG',
+            ar: 'منصة تداول العملات المشفرة AG',
+            de: 'AG Kryptowährungs-Börse',
+            it: 'Borsa di criptovalute AG',
+            es: 'Intercambio de criptomonedas AG'
+        },
+        'AG交易所持有由英国政府颁发的官方运营许可证，其数字资产服务受到全球金融监管机构的认可和监管。这些合法授权的许可证彰显了平台对全面合规、透明性和运营诚信的承诺。通过遵守严格的监管标准，AG交易所为全球用户提供安全可靠的交易环境，进一步增强了投资者和合作伙伴之间的信任与信心。': {
+            en: 'AG Exchange holds an official operating license issued by the UK government, and its digital asset services are recognized and regulated by global financial regulatory authorities. These legally authorized licenses demonstrate the platform\'s commitment to comprehensive compliance, transparency, and operational integrity. By adhering to strict regulatory standards, AG Exchange provides a secure and reliable trading environment for users worldwide, further enhancing trust and confidence among investors and partners.',
+            fr: "La bourse AG détient une licence d'exploitation officielle délivrée par le gouvernement britannique, et ses services d'actifs numériques sont reconnus et réglementés par les autorités de régulation financière mondiales. Ces licences légalement autorisées démontrent l'engagement de la plateforme envers la conformité complète, la transparence et l'intégrité opérationnelle. En respectant des normes réglementaires strictes, la bourse AG offre un environnement de trading sécurisé et fiable aux utilisateurs du monde entier, renforçant ainsi la confiance entre les investisseurs et les partenaires.",
+            ar: 'تمتلك منصة AG Exchange ترخيصًا رسميًا للعمل صادرًا عن الحكومة البريطانية، وتخضع خدمات الأصول الرقمية الخاصة بها للاعتراف والتنظيم من قبل السلطات التنظيمية المالية العالمية. تعكس هذه التراخيص المصرّح بها قانونيًا التزام المنصة بالامتثال الشامل والشفافية والنزاهة التشغيلية. من خلال الالتزام بمعايير تنظيمية صارمة، توفر منصة AG Exchange بيئة تداول آمنة وموثوقة للمستخدمين في جميع أنحاء العالم، مما يعزز الثقة بين المستثمرين والشركاء.',
+            de: 'AG Exchange besitzt eine offizielle Betriebslizenz der britischen Regierung, und ihre digitalen Asset-Services werden von globalen Finanzaufsichtsbehörden anerkannt und reguliert. Diese rechtlich autorisierten Lizenzen zeigen das Engagement der Plattform für umfassende Compliance, Transparenz und operative Integrität. Durch die Einhaltung strenger regulatorischer Standards bietet AG Exchange eine sichere und zuverlässige Handelsumgebung für Nutzer weltweit und stärkt das Vertrauen zwischen Investoren und Partnern.',
+            it: 'AG Exchange possiede una licenza operativa ufficiale rilasciata dal governo britannico, e i suoi servizi di asset digitali sono riconosciuti e regolamentati dalle autorità di regolamentazione finanziaria globali. Queste licenze legalmente autorizzate dimostrano l\'impegno della piattaforma verso la conformità completa, la trasparenza e l\'integrità operativa. Aderendo a standard normativi rigorosi, AG Exchange fornisce un ambiente di trading sicuro e affidabile per gli utenti in tutto il mondo, rafforzando ulteriormente la fiducia tra investitori e partner.',
+            es: 'AG Exchange posee una licencia operativa oficial emitida por el gobierno británico, y sus servicios de activos digitales son reconocidos y regulados por las autoridades reguladoras financieras globales. Estas licencias legalmente autorizadas demuestran el compromiso de la plataforma con el cumplimiento integral, la transparencia y la integridad operativa. Al adherirse a estándares regulatorios estrictos, AG Exchange proporciona un entorno de trading seguro y confiable para usuarios en todo el mundo, fortaleciendo aún más la confianza entre inversores y socios.'
+        },
+        '官方验证方式': {
+            en: 'Official Verification Method',
+            fr: 'Méthode de vérification officielle',
+            ar: 'طريقة التحقق الرسمية',
+            de: 'Offizielle Verifizierungsmethode',
+            it: 'Metodo di verifica ufficiale',
+            es: 'Método de verificación oficial'
+        },
+        '访问英国政府公司查询官方网站': {
+            en: 'Visit the UK Government Company Search Official Website',
+            fr: 'Visitez le site officiel de recherche d\'entreprises du gouvernement britannique',
+            ar: 'قم بزيارة الموقع الرسمي لبحث الشركات التابع للحكومة البريطانية',
+            de: 'Besuchen Sie die offizielle Website der britischen Regierung für Unternehmenssuche',
+            it: 'Visita il sito ufficiale di ricerca aziende del governo britannico',
+            es: 'Visite el sitio web oficial de búsqueda de empresas del gobierno británico'
+        },
+        '输入公司编号查询': {
+            en: 'Enter Company Number to Search',
+            fr: 'Entrez le numéro de l\'entreprise pour rechercher',
+            ar: 'أدخل رقم الشركة للبحث',
+            de: 'Geben Sie die Firmennummer zur Suche ein',
+            it: 'Inserisci il numero dell\'azienda per cercare',
+            es: 'Ingrese el número de la empresa para buscar'
+        },
+
+        '然后您可以访问完整的注册和合规信息。': {
+            en: 'Then you can access complete registration and compliance information.',
+            fr: 'Ensuite, vous pouvez accéder aux informations complètes d\'enregistrement et de conformité.',
+            ar: 'بعد ذلك يمكنك الوصول إلى معلومات التسجيل والامتثال الكاملة.',
+            de: 'Dann können Sie auf vollständige Registrierungs- und Compliance-Informationen zugreifen.',
+            it: 'Quindi puoi accedere alle informazioni complete di registrazione e conformità.',
+            es: 'Luego puede acceder a la información completa de registro y cumplimiento.'
+        },
+        '5年战略合作伙伴关系': {
+            en: '5-Year Strategic Partnership',
+            fr: 'Partenariat stratégique de 5 ans',
+            ar: 'شراكة استراتيجية لمدة 5 سنوات',
+            de: '5-jährige strategische Partnerschaft',
+            it: 'Partnership strategica di 5 anni',
+            es: 'Asociación estratégica de 5 años'
+        },
+        'PICTET致力于整合全球加密货币资源，为其成员提供安全、透明、高效的投资环境。2025年，PICTET与AG交易所建立战略合作伙伴关系，成为其独家全球分销商。': {
+            en: 'PictetCrypto is committed to integrating global cryptocurrency resources to provide its members with a secure, transparent, and efficient investment environment. In 2025, PictetCrypto established a strategic partnership with AG Exchange, becoming its exclusive global distributor.',
+            fr: 'PictetCrypto s\'engage à intégrer les ressources mondiales en cryptomonnaies pour offrir à ses membres un environnement d\'investissement sécurisé, transparent et efficace. En 2025, PictetCrypto a établi un partenariat stratégique avec la bourse AG, devenant son distributeur mondial exclusif.',
+            ar: 'تلتزم بيكت بدمج موارد العملات المشفرة العالمية لتوفير بيئة استثمار آمنة وشفافة وفعالة لأعضائها. في عام 2025، أقامت بيكت شراكة استراتيجية مع منصة AG Exchange، لتصبح موزعها العالمي الحصري.',
+            de: 'PictetCrypto ist bestrebt, globale Kryptowährungs-Ressourcen zu integrieren, um seinen Mitgliedern eine sichere, transparente und effiziente Investitionsumgebung zu bieten. Im Jahr 2025 ging PictetCrypto eine strategische Partnerschaft mit AG Exchange ein und wurde deren exklusiver globaler Distributor.',
+            it: 'PictetCrypto si impegna a integrare le risorse globali di criptovalute per fornire ai suoi membri un ambiente di investimento sicuro, trasparente ed efficiente. Nel 2025, PictetCrypto ha stabilito una partnership strategica con AG Exchange, diventando il suo distributore globale esclusivo.',
+            es: 'PictetCrypto se compromete a integrar recursos globales de criptomonedas para proporcionar a sus miembros un entorno de inversión seguro, transparente y eficiente. En 2025, PictetCrypto estableció una asociación estratégica con AG Exchange, convirtiéndose en su distribuidor global exclusivo.'
+        },
+        '这种合作伙伴关系代表着共同的愿景——交易所寻求通过活跃用户扩大市场份额，而投资者专注于实现可持续的利润。PICTET投资集团充当桥梁，提高市场知名度并确保用户持续盈利，创造无限机会！': {
+            en: 'This partnership represents a shared vision—exchanges seek to expand market share through active users, while investors focus on achieving sustainable profits. The PictetCrypto Investment Group acts as a bridge, increasing market visibility and ensuring continuous profitability for users, creating unlimited opportunities!',
+            fr: 'Ce partenariat représente une vision partagée—les bourses cherchent à élargir leur part de marché grâce aux utilisateurs actifs, tandis que les investisseurs se concentrent sur la réalisation de profits durables. Le groupe d\'investissement PictetCrypto agit comme un pont, augmentant la visibilité du marché et garantissant une rentabilité continue aux utilisateurs, créant des opportunités illimitées !',
+            ar: 'تمثل هذه الشراكة رؤية مشتركة—تسعى البورصات إلى توسيع حصتها السوقية من خلال المستخدمين النشطين، بينما يركز المستثمرون على تحقيق أرباح مستدامة. تعمل مجموعة الاستثمار في بيكت كجسر، مما يزيد من ظهور السوق ويضمن الربحية المستمرة للمستخدمين، مما يخلق فرصًا غير محدودة!',
+            de: 'Diese Partnerschaft repräsentiert eine gemeinsame Vision—Börsen streben danach, ihren Marktanteil durch aktive Nutzer zu erweitern, während Investoren sich darauf konzentrieren, nachhaltige Gewinne zu erzielen. Die PictetCrypto Investment Group fungiert als Brücke, erhöht die Marktpräsenz und gewährleistet kontinuierliche Rentabilität für Nutzer, wodurch unbegrenzte Möglichkeiten geschaffen werden!',
+            it: 'Questa partnership rappresenta una visione condivisa—le borse cercano di espandere la quota di mercato attraverso utenti attivi, mentre gli investitori si concentrano sul raggiungimento di profitti sostenibili. Il Gruppo di Investimento PictetCrypto funge da ponte, aumentando la visibilità del mercato e garantendo redditività continua per gli utenti, creando opportunità illimitate!',
+            es: 'Esta asociación representa una visión compartida: las bolsas buscan expandir su cuota de mercado a través de usuarios activos, mientras que los inversores se enfocan en lograr ganancias sostenibles. El Grupo de Inversión PictetCrypto actúa como un puente, aumentando la visibilidad del mercado y asegurando rentabilidad continua para los usuarios, ¡creando oportunidades ilimitadas!'
+        },
+        '立即体验AG交易所': {
+            en: 'Experience AG Exchange Now',
+            fr: 'Découvrez la bourse AG maintenant',
+            ar: 'جرّب منصة AG Exchange الآن',
+            de: 'Erleben Sie AG Exchange jetzt',
+            it: 'Prova AG Exchange ora',
+            es: 'Experimenta AG Exchange ahora'
+        },
+        '安全合规的全球加密货币交易平台': {
+            en: 'Secure and Compliant Global Cryptocurrency Trading Platform',
+            fr: 'Plateforme de trading de cryptomonnaies mondiale sécurisée et conforme',
+            ar: 'منصة تداول العملات المشفرة العالمية الآمنة والمتوافقة',
+            de: 'Sichere und konforme globale Kryptowährungs-Handelsplattform',
+            it: 'Piattaforma di trading di criptovalute globale sicura e conforme',
+            es: 'Plataforma de trading de criptomonedas global segura y conforme'
+        },
+
+        '立即开始交易': {
+            en: 'Start Trading Now',
+            fr: 'Commencer à trader maintenant',
+            ar: 'ابدأ التداول الآن',
+            de: 'Jetzt mit dem Handel beginnen',
+            it: 'Inizia a fare trading ora',
+            es: 'Comenzar a operar ahora'
+        },
+        '关于PICTET': {
+            en: 'About PictetCrypto',
+            fr: 'À propos de PictetCrypto',
+            ar: 'حول بيكت',
+            de: 'Über PictetCrypto',
+            it: 'Informazioni su PictetCrypto',
+            es: 'Acerca de PictetCrypto'
+        },
+
+        'PICTET：引领加密投资的未来。PICTET集團是瑞士的一家跨國私人銀行和金融服務公司，總部位於日內瓦。<br>PICTET-Crypto项目现已推出。': {
+            en: 'PictetCrypto: Leading the future of crypto investment. The PictetCrypto Group is a Swiss multinational private bank and financial services company headquartered in Geneva.<br>The PICTET-Crypto project is now live.',
+            fr: 'PictetCrypto : en tête de l\'investissement crypto. Le groupe PictetCrypto est une banque privée et une société de services financiers multinationale suisse basée à Genève.<br>Le projet PICTET-Crypto est désormais disponible.',
+            ar: 'بيكت: تقود مستقبل الاستثمار في العملات المشفرة. مجموعة بيكت هي بنك خاص وشركة خدمات مالية متعددة الجنسيات مقرّها جنيف في سويسرا.<br>مشروع بيكت-كريبتو متاح الآن.',
+            de: 'PictetCrypto: Die Zukunft der Krypto-Investitionen anführen. Die PictetCrypto-Gruppe ist eine schweizerische multinationale Privatbank und Finanzdienstleistungsgesellschaft mit Hauptsitz in Genf.<br>Das PICTET-Crypto-Projekt ist jetzt live.',
+            it: 'PictetCrypto: Guidando il futuro degli investimenti cripto. Il Gruppo PictetCrypto è una banca privata multinazionale svizzera e società di servizi finanziari con sede a Ginevra.<br>Il progetto PICTET-Crypto è ora attivo.',
+            es: 'PictetCrypto: Liderando el futuro de la inversión cripto. El Grupo PictetCrypto es un banco privado multinacional suizo y empresa de servicios financieros con sede en Ginebra.<br>El proyecto PICTET-Crypto ya está en vivo.'
+        },
+
+        '版权所有 © 2026 PICTET-Crypto': {
+            en: 'Copyright © 2026 PICTET-Crypto',
+            fr: 'Droits d\'auteur © 2026 PICTET-Crypto',
+            ar: 'حقوق النشر © 2026 بيكت-كريبتو',
+            de: 'Urheberrecht © 2026 PICTET-Crypto',
+            it: 'Copyright © 2026 PICTET-Crypto',
+            es: 'Derechos de autor © 2026 PICTET-Crypto'
+        },
+        '加密货币投资与全球慈善服务负责人': {
+            en: 'Head of Cryptocurrency Investment and Global Philanthropy Services',
+            fr: 'Responsable des investissements en cryptomonnaies et des services philanthropiques mondiaux',
+            ar: 'رئيس الاستثمار في العملات المشفرة وخدمات الخير العالمية',
+            de: 'Leiter für Kryptowährungs-Investitionen und globale Philanthropie-Dienstleistungen',
+            it: 'Responsabile degli investimenti in criptovalute e dei servizi filantropici globali',
+            es: 'Jefe de inversión en criptomonedas y servicios filantrópicos globales'
+        },
+        '个人经历': {
+            en: 'Personal Experience',
+            fr: 'Expérience personnelle',
+            ar: 'الخبرة الشخصية',
+            de: 'Persönliche Erfahrung',
+            it: 'Esperienza personale',
+            es: 'Experiencia personal'
+        },
+
+        '加入PICTET（Pictet）之前，Christoph Courth 曾在瑞银集团（UBS）任职五年，期间担任瑞士高级慈善顾问，随后负责并领导美国西海岸的家族与慈善顾问业务。在成为高净值慈善家族的顾问之前，Christoph 曾在非营利领域深耕超过十年，足迹遍布东非、中东、加勒比地区及英国，为联合国儿童基金会（UNICEF）、英国王子信托基金（Prince\'s Trust）等国际组织提供专业服务。2025 年，他正式进入加密货币领域，将其独到的视野与前瞻性的投资理念融入其中，打造出具有颠覆性的加密投资策略。他成功带领团队与PICTET研究院（Pictet Institute）合作，研发了 Alpha 确定性量化投资框架，显著提升了投资的稳定性，并使其在加密投资领域中脱颖而出。': {
+            en: 'Before joining PictetCrypto, Christoph Courth worked at UBS for five years, serving as Senior Philanthropy Advisor in Switzerland, then leading family and philanthropy advisory services on the U.S. West Coast. Prior to advising high-net-worth philanthropic families, Christoph spent over a decade in the nonprofit sector across East Africa, the Middle East, the Caribbean, and the UK, providing professional services to international organizations including UNICEF and the Prince\'s Trust. In 2025, he formally entered the cryptocurrency space, integrating his unique vision and forward-looking investment philosophy to create a disruptive crypto investment strategy. He successfully led his team in collaboration with the Pictet Institute to develop the Alpha Deterministic Quantitative Investment Framework, significantly improving investment stability and standing out in the crypto investment field.',
+            fr: 'Avant de rejoindre PictetCrypto, Christoph Courth a travaillé chez UBS pendant cinq ans, en tant que conseiller principal en philanthropie en Suisse, puis en dirigeant les services de conseil aux familles et à la philanthropie sur la côte ouest des États-Unis. Avant de conseiller des familles philanthropiques à haut patrimoine, Christoph a passé plus de dix ans dans le secteur à but non lucratif en Afrique de l\'Est, au Moyen-Orient, dans les Caraïbes et au Royaume-Uni, fournissant des services professionnels à des organisations internationales, notamment l\'UNICEF et le Prince\'s Trust. En 2025, il est officiellement entré dans l\'espace des cryptomonnaies, intégrant sa vision unique et sa philosophie d\'investissement tournée vers l\'avenir pour créer une stratégie d\'investissement crypto disruptive. Il a réussi à diriger son équipe en collaboration avec l\'Institut Pictet pour développer le Cadre d\'investissement quantitatif déterministe Alpha, améliorant considérablement la stabilité des investissements et se distinguant dans le domaine de l\'investissement crypto.',
+            ar: 'قبل الانضمام إلى بيكت، عمل كريستوف كورث في UBS لمدة خمس سنوات، حيث شغل منصب مستشار الخيرية الأول في سويسرا، ثم قاد خدمات استشارية للعائلات والخيرية على الساحل الغربي للولايات المتحدة. قبل استشارة العائلات الخيرية عالية الثروة، قضى كريستوف أكثر من عقد في القطاع غير الربحي عبر شرق إفريقيا والشرق الأوسط ومنطقة الكاريبي والمملكة المتحدة، حيث قدم خدمات مهنية لمنظمات دولية بما في ذلك اليونيسف وصندوق الأمير. في عام 2025، دخل رسميًا مجال العملات المشفرة، ودمج رؤيته الفريدة وفلسفة الاستثمار المستقبلية لإنشاء استراتيجية استثمار في العملات المشفرة مدمرة. قاد فريقه بنجاح بالتعاون مع معهد بيكت لتطوير إطار الاستثمار الكمي الحتمي Alpha، مما حسّن بشكل كبير استقرار الاستثمار وتميّز في مجال الاستثمار في العملات المشفرة.',
+            de: 'Vor seinem Beitritt zu PictetCrypto arbeitete Christoph Courth fünf Jahre bei UBS, zunächst als Senior Philanthropy Advisor in der Schweiz, dann leitete er die Familien- und Philanthropie-Beratungsdienste an der US-Westküste. Bevor er vermögende philanthropische Familien beriet, verbrachte Christoph über ein Jahrzehnt im gemeinnützigen Sektor in Ostafrika, dem Nahen Osten, der Karibik und Großbritannien und erbrachte professionelle Dienstleistungen für internationale Organisationen wie UNICEF und den Prince\'s Trust. 2025 trat er offiziell in den Kryptowährungsbereich ein, integrierte seine einzigartige Vision und zukunftsorientierte Investitionsphilosophie, um eine disruptive Krypto-Investitionsstrategie zu schaffen. Er führte erfolgreich sein Team in Zusammenarbeit mit dem Pictet Institute zur Entwicklung des Alpha Deterministic Quantitative Investment Framework, was die Investitionsstabilität erheblich verbesserte und ihn im Krypto-Investitionsbereich hervorstechen ließ.',
+            it: 'Prima di unirsi a PictetCrypto, Christoph Courth ha lavorato presso UBS per cinque anni, servendo come Senior Philanthropy Advisor in Svizzera, poi guidando i servizi di consulenza familiare e filantropica sulla costa occidentale degli Stati Uniti. Prima di consigliare famiglie filantropiche ad alto patrimonio netto, Christoph ha trascorso oltre un decennio nel settore non-profit attraverso l\'Africa orientale, il Medio Oriente, i Caraibi e il Regno Unito, fornendo servizi professionali a organizzazioni internazionali tra cui UNICEF e il Prince\'s Trust. Nel 2025, è entrato formalmente nello spazio delle criptovalute, integrando la sua visione unica e la filosofia di investimento lungimirante per creare una strategia di investimento cripto dirompente. Ha guidato con successo il suo team in collaborazione con il Pictet Institute per sviluppare l\'Alpha Deterministic Quantitative Investment Framework, migliorando significativamente la stabilità degli investimenti e distinguendosi nel campo degli investimenti cripto.',
+            es: 'Antes de unirse a PictetCrypto, Christoph Courth trabajó en UBS durante cinco años, sirviendo como Asesor Senior de Filantropía en Suiza, luego liderando servicios de asesoría familiar y filantrópica en la Costa Oeste de EE.UU. Antes de asesorar a familias filantrópicas de alto patrimonio neto, Christoph pasó más de una década en el sector sin fines de lucro a través del este de África, Medio Oriente, el Caribe y el Reino Unido, proporcionando servicios profesionales a organizaciones internacionales incluyendo UNICEF y el Prince\'s Trust. En 2025, entró formalmente al espacio de las criptomonedas, integrando su visión única y filosofía de inversión con visión de futuro para crear una estrategia de inversión cripto disruptiva. Lideró exitosamente a su equipo en colaboración con el Instituto Pictet para desarrollar el Marco de Inversión Cuantitativa Determinística Alpha, mejorando significativamente la estabilidad de la inversión y destacándose en el campo de la inversión cripto.'
+        },
+
+        'AG交易所LOGO': {
+            en: 'AG Exchange Logo',
+            fr: 'Logo de la bourse AG',
+            ar: 'شعار منصة AG',
+            de: 'AG-Börse Logo',
+            it: 'Logo della Borsa AG',
+            es: 'Logo del Intercambio AG'
+        },
+        'AG交易所官方验证': {
+            en: 'AG Exchange Official Verification',
+            fr: 'Vérification officielle de la bourse AG',
+            ar: 'التحقق الرسمي لمنصة AG',
+            de: 'AG-Börse offizielle Verifizierung',
+            it: 'Verifica ufficiale della Borsa AG',
+            es: 'Verificación oficial del Intercambio AG'
+        },
+        'PICTET与AG交易所合作证书': {
+            en: 'PictetCrypto and AG Exchange Partnership Certificate',
+            fr: 'Certificat de partenariat PictetCrypto et bourse AG',
+            ar: 'شهادة شراكة بيكت ومنصة AG',
+            de: 'PictetCrypto und AG-Börse Partnerschaftszertifikat',
+            it: 'Certificato di partnership PictetCrypto e Borsa AG',
+            es: 'Certificado de asociación PictetCrypto e Intercambio AG'
+        },
+        '适用于': {
+            en: 'Available on',
+            fr: 'Disponible sur',
+            ar: 'متاح على',
+            de: 'Verfügbar auf',
+            it: 'Disponibile su',
+            es: 'Disponible en'
+        },
+        '加入等候名单': {
+            en: 'Join Waitlist',
+            fr: 'Rejoindre la liste d\'attente',
+            ar: 'انضم إلى قائمة الانتظار',
+            de: 'Der Warteliste beitreten',
+            it: 'Unisciti alla lista d\'attesa',
+            es: 'Unirse a la lista de espera'
+        }
+
+    };
+
+    function getInitialLang() {
+        const urlLang = new URLSearchParams(window.location.search).get('lang');
+        if (urlLang && SUPPORTED_LANGS.includes(urlLang)) {
+            return urlLang;
+        }
+        const stored = window.localStorage.getItem('pictet-lang');
+        if (stored && SUPPORTED_LANGS.includes(stored)) {
+            return stored;
+        }
+        const browser = (navigator.language || navigator.userLanguage || 'en').toLowerCase();
+        if (browser.startsWith('fr')) return 'fr';
+        if (browser.startsWith('ar')) return 'ar';
+        // 移除中文检测，所有其他情况都返回英语
+        return 'en';
+    }
+
+    function applyHtmlLangAndDir(lang) {
+        const html = document.documentElement;
+        if (!html) return;
+        if (lang === 'en') {
+            html.lang = 'en';
+            html.dir = 'ltr';
+        } else if (lang === 'fr') {
+            html.lang = 'fr';
+            html.dir = 'ltr';
+        } else if (lang === 'ar') {
+            html.lang = 'ar';
+            html.dir = 'rtl';
+        } else {
+            // 默认英语
+            html.lang = 'en';
+            html.dir = 'ltr';
+        }
+    }
+
+    function updateMeta(lang) {
+        const descTag = document.querySelector('meta[name="description"]');
+        if (descTag && META_TEXT.description[lang]) {
+            descTag.setAttribute('content', META_TEXT.description[lang]);
+        }
+        const ogTitle = document.querySelector('meta[property="og:title"]');
+        if (ogTitle && META_TEXT.title[lang]) {
+            ogTitle.setAttribute('content', META_TEXT.title[lang]);
+        }
+        const ogDesc = document.querySelector('meta[property="og:description"]');
+        if (ogDesc && META_TEXT.description[lang]) {
+            ogDesc.setAttribute('content', META_TEXT.description[lang]);
+        }
+        const siteName = document.querySelector('meta[property="og:site_name"]');
+        if (siteName && META_TEXT.title[lang]) {
+            siteName.setAttribute('content', META_TEXT.title[lang]);
+        }
+        if (META_TEXT.title[lang]) {
+            document.title = META_TEXT.title[lang];
+        }
+    }
+
+    function translatePage(lang) {
+        updateMeta(lang);
+
+        const all = document.body ? document.body.getElementsByTagName('*') : [];
+        if (!all || !all.length) return;
+
+        // 按文本长度从长到短排序，优先匹配完整的长文本
+        const mapKeys = Object.keys(TEXT_MAP).sort((a, b) => {
+            // 先按长度排序（长的在前）
+            if (b.length !== a.length) {
+                return b.length - a.length;
+            }
+            // 长度相同则按字母顺序
+            return a.localeCompare(b);
+        });
+
+        // 标准化HTML字符串的函数
+        function normalizeHtml(str) {
+            if (!str) return '';
+            return str.replace(/\s+/g, ' ').replace(/<br\s*\/?>/gi, '<br/>').trim();
+        }
+
+        // 检查并替换文本的函数
+        function replaceText(element, key, target) {
+            const html = element.innerHTML;
+            if (!html) return false;
+            
+            // 完全匹配
+            if (html.trim() === key) {
+                element.innerHTML = target;
+                return true;
+            }
+            
+            // 标准化后匹配
+            const normalizedHtml = normalizeHtml(html);
+            const normalizedKey = normalizeHtml(key);
+            if (normalizedHtml === normalizedKey) {
+                element.innerHTML = target;
+                return true;
+            }
+            
+            // 提取纯文本内容进行匹配（处理包裹在标签中的文本）
+            const textContent = element.textContent || '';
+            if (textContent.trim() === key || normalizeHtml(textContent) === normalizedKey) {
+                // 如果元素只包含文本节点，直接替换
+                if (element.childNodes.length === 1 && element.firstChild.nodeType === Node.TEXT_NODE) {
+                    element.textContent = target;
+                    return true;
+                } else {
+                    // 处理包含图标或其他HTML标签的情况
+                    // 尝试在textContent中找到key并替换，同时保留HTML结构
+                    const textNodes = [];
+                    const walker = document.createTreeWalker(element, NodeFilter.SHOW_TEXT, null, false);
+                    let node;
+                    while (node = walker.nextNode()) {
+                        if (node.textContent.trim() === key || normalizeHtml(node.textContent) === normalizedKey) {
+                            node.textContent = target;
+                            return true;
+                        }
+                        // 如果key是textContent的一部分
+                        if (node.textContent.includes(key)) {
+                            node.textContent = node.textContent.replace(new RegExp(key.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g'), target);
+                            return true;
+                        }
+                    }
+                    // 如果找不到，使用innerHTML替换
+                    element.innerHTML = html.replace(new RegExp(key.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g'), target);
+                    return true;
+                }
+            }
+            
+            // 如果key包含在html中（用于部分匹配）
+            if (html.includes(key)) {
+                element.innerHTML = html.replace(new RegExp(key.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g'), target);
+                return true;
+            }
+            
+            // 如果key包含在textContent中（用于部分匹配纯文本）
+            if (textContent.includes(key)) {
+                element.innerHTML = html.replace(new RegExp(key.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g'), target);
+                return true;
+            }
+            
+            return false;
+        }
+
+        for (let i = 0; i < all.length; i++) {
+            const el = all[i];
+
+            if (el.tagName === 'SCRIPT' || el.tagName === 'STYLE') continue;
+
+            // 特殊处理可能包含 HTML（如 <span>、<br/>）的 innerHTML 匹配
+            for (let k = 0; k < mapKeys.length; k++) {
+                const key = mapKeys[k];
+                const target = TEXT_MAP[key][lang];
+                if (!target) continue;
+                
+                if (replaceText(el, key, target)) {
+                    break;
+                }
+            }
+
+            // 处理 title 属性
+            if (el.hasAttribute('title')) {
+                const titleText = el.getAttribute('title');
+                if (titleText && TEXT_MAP[titleText] && TEXT_MAP[titleText][lang]) {
+                    el.setAttribute('title', TEXT_MAP[titleText][lang]);
+                }
+            }
+
+            // 处理 alt 属性
+            if (el.hasAttribute('alt')) {
+                const altText = el.getAttribute('alt');
+                if (altText && TEXT_MAP[altText] && TEXT_MAP[altText][lang]) {
+                    el.setAttribute('alt', TEXT_MAP[altText][lang]);
+                }
+            }
+
+            if (el.childNodes.length === 1 && el.firstChild.nodeType === Node.TEXT_NODE) {
+                const text = el.textContent.trim();
+                if (!text) continue;
+                if (TEXT_MAP[text] && TEXT_MAP[text][lang]) {
+                    el.textContent = TEXT_MAP[text][lang];
+                }
+            }
+        }
+        
+        // 翻译完成后显示内容（避免闪烁）- 延长延迟确保翻译完全完成
+        if (document.body) {
+            // 使用更长的延迟（400ms），确保所有翻译都完成
+            setTimeout(function() {
+                requestAnimationFrame(function() {
+                    document.body.classList.add('page-ready');
+                    document.body.style.visibility = 'visible';
+                    document.body.style.opacity = '1';
+                });
+            }, 400);
+        }
+    }
+
+    const FLAG_MAP = {
+        en: '🇬🇧',
+        fr: '🇫🇷',
+        ar: '🇸🇦',
+        de: '🇩🇪',
+        it: '🇮🇹',
+        es: '🇪🇸'
+    };
+
+    function highlightActiveButton(lang) {
+        const container = document.querySelector('.js-lang-switcher');
+        if (!container) return;
+        const buttons = container.querySelectorAll('[data-lang]');
+        const mainBtn = container.querySelector('.js-lang-main-btn');
+        const flagSpan = container.querySelector('.js-lang-flag');
+        
+        // 更新主按钮国旗
+        if (mainBtn && flagSpan && FLAG_MAP[lang]) {
+            flagSpan.textContent = FLAG_MAP[lang];
+        }
+        
+        // 更新列表按钮状态
+        buttons.forEach(function (btn) {
+            const v = btn.getAttribute('data-lang');
+            if (v === lang) {
+                btn.classList.add('is-active');
+            } else {
+                btn.classList.remove('is-active');
+            }
+        });
+    }
+
+    function bindSwitcher() {
+        const container = document.querySelector('.js-lang-switcher');
+        if (!container) return;
+        const panel = container.querySelector('.cm-lang-switcher--panel');
+        const mainBtn = container.querySelector('.js-lang-main-btn');
+        const buttons = container.querySelectorAll('[data-lang]');
+        
+        // 主按钮点击切换展开/收起
+        if (mainBtn && panel) {
+            mainBtn.addEventListener('click', function(e) {
+                e.stopPropagation();
+                panel.classList.toggle('is-expanded');
+            });
+        }
+        
+        // 列表按钮点击切换语言
+        buttons.forEach(function (btn) {
+            btn.addEventListener('click', function (e) {
+                e.stopPropagation();
+                const lang = this.getAttribute('data-lang');
+                if (!SUPPORTED_LANGS.includes(lang)) return;
+                window.localStorage.setItem('pictet-lang', lang);
+                const url = new URL(window.location.href);
+                url.searchParams.set('lang', lang);
+                window.location.replace(url.toString());
+            });
+        });
+        
+        // 点击外部关闭
+        document.addEventListener('click', function(e) {
+            if (panel && !container.contains(e.target)) {
+                panel.classList.remove('is-expanded');
+            }
+        });
+    }
+
+    document.addEventListener('DOMContentLoaded', function () {
+        const currentLang = getInitialLang();
+        applyHtmlLangAndDir(currentLang);
+        highlightActiveButton(currentLang);
+        bindSwitcher();
+        
+        // 无论什么语言，都先隐藏内容，翻译完成后再显示（在translatePage函数中处理）
+        if (document.body) {
+            document.body.style.visibility = 'hidden';
+            document.body.style.opacity = '0';
+        }
+        
+        translatePage(currentLang);
+    });
+})();
+</script>
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" data-cf-beacon='{"version":"2024.11.0","token":"bdb8e9af7af04ac0acc6339de176aee8","r":1,"server_time":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}'></script>
+</body>
+</html>
